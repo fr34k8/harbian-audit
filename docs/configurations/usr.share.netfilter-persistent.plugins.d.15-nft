@@ -33,7 +33,7 @@ save_rules()
         else	
 		:
 	fi
-	${NFT_CMD} list ruleset -n > ${NFT_RULESET}
+	${NFT_CMD} -n list ruleset > ${NFT_RULESET}
 }
 
 flush_rules()
